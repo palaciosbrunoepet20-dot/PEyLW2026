@@ -1,0 +1,17 @@
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 48px;   /* tamaño extra grande */
+  color: blue;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 72px;
+  color: blue;
+}
+h2 {
+  font-weight: bold; /* autores en negrita */
+}
+
+p {
+  font-style: italic; /* textos en itálica */
+}
