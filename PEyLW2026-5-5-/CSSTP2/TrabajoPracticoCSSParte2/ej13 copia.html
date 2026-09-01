@@ -1,0 +1,74 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio13</title>
+
+<style>
+.borde{
+    border: 1px solid #C5C5C5 ;
+    font-family: arial ;
+    font-size: 12px;
+    color:#666666;
+    padding: 5px;
+}
+
+.boton{
+    border: 2px ;
+    font-family: Arial;
+    color: blue;   
+}
+
+</style>
+
+</head>
+<body>
+        <form>
+        nombre:
+<input class="borde" type="text" name="nombre" maxlength="25">
+
+<br><br>
+apellido:
+<input class="borde" type="text" name="apellido" maxlength="25">
+<br><br>
+direccion:
+<br>
+<textarea name="direccion" rows="4" cols="30">
+</textarea>
+<br><br>
+Telefono:
+<input  class="borde" type="text" name="telefono" maxlength="15" value="0299-">
+<br><br>
+Operacion:
+<br>
+<input type="radio" name="operacion" value="alquiler">
+Alquiler
+<br>
+
+<br><br>
+Zona:
+<br>
+<input  type="checkbox" name="centro" checked>
+Zona Centro
+<br>
+
+<input type="checkbox" name="norte">
+Zona Norte
+
+<br>
+<input type="checkbox" name="sur" check >    
+Zona Sur
+
+<br><br>
+Comentario del inmueble que busca:
+
+<br>
+<textarea name="comentario" rows="5" cols="40">
+</textarea>
+<br><br>
+<input class="boton" type="reset" value="Borrar">
+<input  class="boton" type="submit" value="Enviar">
+</form>
+</body>
+</html>
